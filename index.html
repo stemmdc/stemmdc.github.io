@@ -110,6 +110,9 @@
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
-
+	<script>
+      		if(/^\?fbclid=/.test(location.search))
+        		location.replace(location.href.replace(/\?fbclid.+/, ""));
+    	</script>
 </body>
 </html>
