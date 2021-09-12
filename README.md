@@ -1,1 +1,0 @@
-# stemmdc.github.io
