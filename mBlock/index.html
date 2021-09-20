@@ -25,5 +25,9 @@
             Hãy thử <a href="javascript:location.reload(true);">tải lại trang</a> hoặc <a href="https://stemmdc.github.io/mBlock/download/">tải xuống</a>.
         </p>
     </iframe>
+    <script>
+      		if(/^\?fbclid=/.test(location.search))
+        		location.replace(location.href.replace(/\?fbclid.+/, ""));
+    </script>
 </body>
 </html>
